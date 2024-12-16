@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F87B8AD32D0FF77200DAA729 /* Daily_Diafacts_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87B8AD22D0FF77200DAA729 /* Daily_Diafacts_1App.swift */; };
+		F87B8AD52D0FF77200DAA729 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87B8AD42D0FF77200DAA729 /* ContentView.swift */; };
+		F87B8AD72D0FF77400DAA729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87B8AD62D0FF77400DAA729 /* Assets.xcassets */; };
+		F87B8ADB2D0FF77400DAA729 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87B8ADA2D0FF77400DAA729 /* Preview Assets.xcassets */; };
+		F87B8AE22D0FF7AD00DAA729 /* facts.txt in Resources */ = {isa = PBXBuildFile; fileRef = F87B8AE12D0FF7AD00DAA729 /* facts.txt */; };
+		F87B8AEA2D0FF82C00DAA729 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B8AE92D0FF82C00DAA729 /* WidgetKit.framework */; };
+		F87B8AEC2D0FF82C00DAA729 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87B8AEB2D0FF82C00DAA729 /* SwiftUI.framework */; };
+		F87B8AEF2D0FF82C00DAA729 /* Daily_Diafacts_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87B8AEE2D0FF82C00DAA729 /* Daily_Diafacts_WidgetBundle.swift */; };
+		F87B8AF32D0FF82C00DAA729 /* Daily_Diafacts_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87B8AF22D0FF82C00DAA729 /* Daily_Diafacts_Widget.swift */; };
+		F87B8AF52D0FF82C00DAA729 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87B8AF42D0FF82C00DAA729 /* AppIntent.swift */; };
+		F87B8AF72D0FF82E00DAA729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87B8AF62D0FF82E00DAA729 /* Assets.xcassets */; };
+		F87B8AFB2D0FF82E00DAA729 /* Daily Diafacts WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F87B8AE72D0FF82C00DAA729 /* Daily Diafacts WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F87B8B002D0FF83D00DAA729 /* facts.txt in Resources */ = {isa = PBXBuildFile; fileRef = F87B8AE12D0FF7AD00DAA729 /* facts.txt */; };
+		F87B8B032D0FF89400DAA729 /* FactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87B8B022D0FF89400DAA729 /* FactManager.swift */; };
+		F87B8B042D0FF89400DAA729 /* FactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87B8B022D0FF89400DAA729 /* FactManager.swift */; };
+		F87B8B062D0FFBB800DAA729 /* AppleGaramond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F87B8B052D0FFBB800DAA729 /* AppleGaramond.ttf */; };
+		F87B8B072D0FFBB800DAA729 /* AppleGaramond.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F87B8B052D0FFBB800DAA729 /* AppleGaramond.ttf */; };
+		F87B8B092D0FFBC500DAA729 /* Megan Beauty.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F87B8B082D0FFBC500DAA729 /* Megan Beauty.ttf */; };
+		F87B8B0A2D0FFBC500DAA729 /* Megan Beauty.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F87B8B082D0FFBC500DAA729 /* Megan Beauty.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F87B8AF92D0FF82E00DAA729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87B8AC72D0FF77200DAA729 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F87B8AE62D0FF82C00DAA729;
+			remoteInfo = "Daily Diafacts WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F87B8AFF2D0FF82E00DAA729 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F87B8AFB2D0FF82E00DAA729 /* Daily Diafacts WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F87B8ACF2D0FF77200DAA729 /* Daily Diafacts 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Diafacts 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87B8AD22D0FF77200DAA729 /* Daily_Diafacts_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_Diafacts_1App.swift; sourceTree = "<group>"; };
+		F87B8AD42D0FF77200DAA729 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F87B8AD62D0FF77400DAA729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F87B8AD82D0FF77400DAA729 /* Daily_Diafacts_1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Daily_Diafacts_1.entitlements; sourceTree = "<group>"; };
+		F87B8ADA2D0FF77400DAA729 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F87B8AE12D0FF7AD00DAA729 /* facts.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = facts.txt; sourceTree = "<group>"; };
+		F87B8AE72D0FF82C00DAA729 /* Daily Diafacts WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Daily Diafacts WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F87B8AE92D0FF82C00DAA729 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F87B8AEB2D0FF82C00DAA729 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F87B8AEE2D0FF82C00DAA729 /* Daily_Diafacts_WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_Diafacts_WidgetBundle.swift; sourceTree = "<group>"; };
+		F87B8AF22D0FF82C00DAA729 /* Daily_Diafacts_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daily_Diafacts_Widget.swift; sourceTree = "<group>"; };
+		F87B8AF42D0FF82C00DAA729 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		F87B8AF62D0FF82E00DAA729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F87B8AF82D0FF82E00DAA729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87B8B012D0FF86000DAA729 /* Daily Diafacts WidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Daily Diafacts WidgetExtension.entitlements"; sourceTree = "<group>"; };
+		F87B8B022D0FF89400DAA729 /* FactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactManager.swift; sourceTree = "<group>"; };
+		F87B8B052D0FFBB800DAA729 /* AppleGaramond.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = AppleGaramond.ttf; path = "../../../../Downloads/apple_garamond 2/AppleGaramond.ttf"; sourceTree = "<group>"; };
+		F87B8B082D0FFBC500DAA729 /* Megan Beauty.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Megan Beauty.ttf"; path = "../../../../Downloads/Megan Beuaty/Megan Beauty.ttf"; sourceTree = "<group>"; };
+		F87B8B0D2D0FFE2E00DAA729 /* Daily-Diafacts-1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Daily-Diafacts-1-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F87B8ACC2D0FF77200DAA729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87B8AE42D0FF82C00DAA729 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87B8AEC2D0FF82C00DAA729 /* SwiftUI.framework in Frameworks */,
+				F87B8AEA2D0FF82C00DAA729 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F87B8AC62D0FF77200DAA729 = {
+			isa = PBXGroup;
+			children = (
+				F87B8B012D0FF86000DAA729 /* Daily Diafacts WidgetExtension.entitlements */,
+				F87B8AD12D0FF77200DAA729 /* Daily Diafacts 1 */,
+				F87B8AED2D0FF82C00DAA729 /* Daily Diafacts Widget */,
+				F87B8AE82D0FF82C00DAA729 /* Frameworks */,
+				F87B8AD02D0FF77200DAA729 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F87B8AD02D0FF77200DAA729 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F87B8ACF2D0FF77200DAA729 /* Daily Diafacts 1.app */,
+				F87B8AE72D0FF82C00DAA729 /* Daily Diafacts WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F87B8AD12D0FF77200DAA729 /* Daily Diafacts 1 */ = {
+			isa = PBXGroup;
+			children = (
+				F87B8B0D2D0FFE2E00DAA729 /* Daily-Diafacts-1-Info.plist */,
+				F87B8AD22D0FF77200DAA729 /* Daily_Diafacts_1App.swift */,
+				F87B8B022D0FF89400DAA729 /* FactManager.swift */,
+				F87B8AD42D0FF77200DAA729 /* ContentView.swift */,
+				F87B8B082D0FFBC500DAA729 /* Megan Beauty.ttf */,
+				F87B8B052D0FFBB800DAA729 /* AppleGaramond.ttf */,
+				F87B8AE12D0FF7AD00DAA729 /* facts.txt */,
+				F87B8AD62D0FF77400DAA729 /* Assets.xcassets */,
+				F87B8AD82D0FF77400DAA729 /* Daily_Diafacts_1.entitlements */,
+				F87B8AD92D0FF77400DAA729 /* Preview Content */,
+			);
+			path = "Daily Diafacts 1";
+			sourceTree = "<group>";
+		};
+		F87B8AD92D0FF77400DAA729 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F87B8ADA2D0FF77400DAA729 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F87B8AE82D0FF82C00DAA729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F87B8AE92D0FF82C00DAA729 /* WidgetKit.framework */,
+				F87B8AEB2D0FF82C00DAA729 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F87B8AED2D0FF82C00DAA729 /* Daily Diafacts Widget */ = {
+			isa = PBXGroup;
+			children = (
+				F87B8AEE2D0FF82C00DAA729 /* Daily_Diafacts_WidgetBundle.swift */,
+				F87B8AF22D0FF82C00DAA729 /* Daily_Diafacts_Widget.swift */,
+				F87B8AF42D0FF82C00DAA729 /* AppIntent.swift */,
+				F87B8AF62D0FF82E00DAA729 /* Assets.xcassets */,
+				F87B8AF82D0FF82E00DAA729 /* Info.plist */,
+			);
+			path = "Daily Diafacts Widget";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F87B8ACE2D0FF77200DAA729 /* Daily Diafacts 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87B8ADE2D0FF77400DAA729 /* Build configuration list for PBXNativeTarget "Daily Diafacts 1" */;
+			buildPhases = (
+				F87B8ACB2D0FF77200DAA729 /* Sources */,
+				F87B8ACC2D0FF77200DAA729 /* Frameworks */,
+				F87B8ACD2D0FF77200DAA729 /* Resources */,
+				F87B8AFF2D0FF82E00DAA729 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F87B8AFA2D0FF82E00DAA729 /* PBXTargetDependency */,
+			);
+			name = "Daily Diafacts 1";
+			productName = "Daily Diafacts 1";
+			productReference = F87B8ACF2D0FF77200DAA729 /* Daily Diafacts 1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F87B8AE62D0FF82C00DAA729 /* Daily Diafacts WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F87B8AFC2D0FF82E00DAA729 /* Build configuration list for PBXNativeTarget "Daily Diafacts WidgetExtension" */;
+			buildPhases = (
+				F87B8AE32D0FF82C00DAA729 /* Sources */,
+				F87B8AE42D0FF82C00DAA729 /* Frameworks */,
+				F87B8AE52D0FF82C00DAA729 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daily Diafacts WidgetExtension";
+			productName = "Daily Diafacts WidgetExtension";
+			productReference = F87B8AE72D0FF82C00DAA729 /* Daily Diafacts WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F87B8AC72D0FF77200DAA729 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F87B8ACE2D0FF77200DAA729 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F87B8AE62D0FF82C00DAA729 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F87B8ACA2D0FF77200DAA729 /* Build configuration list for PBXProject "Daily Diafacts 1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F87B8AC62D0FF77200DAA729;
+			productRefGroup = F87B8AD02D0FF77200DAA729 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F87B8ACE2D0FF77200DAA729 /* Daily Diafacts 1 */,
+				F87B8AE62D0FF82C00DAA729 /* Daily Diafacts WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F87B8ACD2D0FF77200DAA729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87B8B062D0FFBB800DAA729 /* AppleGaramond.ttf in Resources */,
+				F87B8AE22D0FF7AD00DAA729 /* facts.txt in Resources */,
+				F87B8ADB2D0FF77400DAA729 /* Preview Assets.xcassets in Resources */,
+				F87B8AD72D0FF77400DAA729 /* Assets.xcassets in Resources */,
+				F87B8B092D0FFBC500DAA729 /* Megan Beauty.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87B8AE52D0FF82C00DAA729 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87B8B072D0FFBB800DAA729 /* AppleGaramond.ttf in Resources */,
+				F87B8B002D0FF83D00DAA729 /* facts.txt in Resources */,
+				F87B8B0A2D0FFBC500DAA729 /* Megan Beauty.ttf in Resources */,
+				F87B8AF72D0FF82E00DAA729 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F87B8ACB2D0FF77200DAA729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87B8AD52D0FF77200DAA729 /* ContentView.swift in Sources */,
+				F87B8AD32D0FF77200DAA729 /* Daily_Diafacts_1App.swift in Sources */,
+				F87B8B032D0FF89400DAA729 /* FactManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87B8AE32D0FF82C00DAA729 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F87B8AEF2D0FF82C00DAA729 /* Daily_Diafacts_WidgetBundle.swift in Sources */,
+				F87B8B042D0FF89400DAA729 /* FactManager.swift in Sources */,
+				F87B8AF52D0FF82C00DAA729 /* AppIntent.swift in Sources */,
+				F87B8AF32D0FF82C00DAA729 /* Daily_Diafacts_Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F87B8AFA2D0FF82E00DAA729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F87B8AE62D0FF82C00DAA729 /* Daily Diafacts WidgetExtension */;
+			targetProxy = F87B8AF92D0FF82E00DAA729 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F87B8ADC2D0FF77400DAA729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F87B8ADD2D0FF77400DAA729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F87B8ADF2D0FF77400DAA729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Daily Diafacts 1/Daily_Diafacts_1.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Daily Diafacts 1/Preview Content\"";
+				DEVELOPMENT_TEAM = WHL2293UAF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Daily-Diafacts-1-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah.Daily-Diafacts-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F87B8AE02D0FF77400DAA729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Daily Diafacts 1/Daily_Diafacts_1.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Daily Diafacts 1/Preview Content\"";
+				DEVELOPMENT_TEAM = WHL2293UAF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Daily-Diafacts-1-Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah.Daily-Diafacts-1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F87B8AFD2D0FF82E00DAA729 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Daily Diafacts WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHL2293UAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Daily Diafacts Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Daily Diafacts Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah.Daily-Diafacts-1.Daily-Diafacts-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F87B8AFE2D0FF82E00DAA729 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = "Daily Diafacts WidgetExtension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WHL2293UAF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Daily Diafacts Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Daily Diafacts Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah.Daily-Diafacts-1.Daily-Diafacts-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F87B8ACA2D0FF77200DAA729 /* Build configuration list for PBXProject "Daily Diafacts 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87B8ADC2D0FF77400DAA729 /* Debug */,
+				F87B8ADD2D0FF77400DAA729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87B8ADE2D0FF77400DAA729 /* Build configuration list for PBXNativeTarget "Daily Diafacts 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87B8ADF2D0FF77400DAA729 /* Debug */,
+				F87B8AE02D0FF77400DAA729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F87B8AFC2D0FF82E00DAA729 /* Build configuration list for PBXNativeTarget "Daily Diafacts WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F87B8AFD2D0FF82E00DAA729 /* Debug */,
+				F87B8AFE2D0FF82E00DAA729 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F87B8AC72D0FF77200DAA729 /* Project object */;
+}
